@@ -6294,6 +6294,12 @@
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/white,
 /area/science/lower)
+"bVu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/medical/medbay/central)
 "bVy" = (
 /turf/open/floor/iron/dark/side{
 	dir = 1
@@ -11382,6 +11388,7 @@
 /area/hallway/floor1/aft)
 "dPN" = (
 /obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/corner{
 	dir = 1
 	},
@@ -54614,13 +54621,6 @@
 /obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/maintenance/floor4/port/fore)
-"ucZ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron/white,
-/area/science/lower)
 "udf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -155110,7 +155110,7 @@ uOV
 egz
 uXE
 fsI
-ucZ
+fsI
 sPp
 eRP
 foh
@@ -165405,7 +165405,7 @@ unV
 noh
 uFV
 wPX
-luS
+bVu
 dCp
 vDY
 eKJ

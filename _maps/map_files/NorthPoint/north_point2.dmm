@@ -3271,15 +3271,12 @@
 /turf/open/floor/iron/dark,
 /area/ai_monitored/turret_protected/aisat/hallway)
 "aVr" = (
-/obj/structure/table,
-/obj/item/folder/yellow{
-	pixel_x = -7
+/obj/machinery/power/solar_control{
+	dir = 1;
+	id = "aftport";
+	name = "Port Quarter Solar Control"
 	},
-/obj/item/folder/yellow,
-/obj/item/folder/yellow{
-	pixel_x = 6
-	},
-/obj/item/storage/briefcase,
+/obj/structure/cable,
 /turf/open/floor/pod/light,
 /area/maintenance/solars/port/aft)
 "aVs" = (
@@ -7908,7 +7905,7 @@
 /turf/open/floor/iron/dark/corner,
 /area/hallway/floor2/aft)
 "ckl" = (
-/obj/item/toy/snowball,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/maintenance/floor2/port/aft)
 "ckn" = (
@@ -37090,6 +37087,7 @@
 	pixel_y = 6
 	},
 /obj/structure/table,
+/obj/item/toy/snowball,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/maintenance/floor2/port/aft)
 "lQm" = (
@@ -41576,6 +41574,11 @@
 /obj/machinery/light/directional/north,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/maintenance/floor2/port/aft)
+"nid" = (
+/obj/structure/girder,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/aft)
 "nih" = (
 /obj/machinery/airalarm/directional/north,
 /obj/structure/cable,
@@ -50861,6 +50864,9 @@
 /turf/open/floor/grass,
 /area/security/courtroom)
 "qhE" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
 /turf/open/misc/asteroid/snow/standard_air{
 	icon_state = "snow12"
 	},
@@ -50951,6 +50957,12 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/openspace,
 /area/hallway/floor3/aft)
+"qkf" = (
+/obj/structure/girder,
+/obj/structure/cable,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/floor/plating,
+/area/maintenance/solars/port/aft)
 "qki" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit/telecomms,
@@ -191011,7 +191023,7 @@ xrj
 aHf
 bIm
 hMs
-qCt
+nid
 nvU
 lXs
 fZV
@@ -191268,8 +191280,8 @@ buX
 cWR
 ioQ
 aVr
-qCt
-nvU
+qkf
+dlU
 hgN
 cCE
 cCE
@@ -191526,7 +191538,7 @@ uxt
 wfq
 qCt
 wfq
-nvU
+dlU
 wYH
 wYH
 wYH

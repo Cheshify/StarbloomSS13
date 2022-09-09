@@ -47069,7 +47069,9 @@
 "nkr" = (
 /obj/machinery/light/directional/east,
 /obj/item/storage/toolbox/ammo,
-/obj/structure/closet/secure_closet/armory2,
+/obj/structure/closet/secure_closet/contraband/armory{
+	name = "Ammunition Locker"
+	},
 /turf/open/floor/iron/dark/red,
 /area/ai_monitored/security/armory)
 "nkw" = (
